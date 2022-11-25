@@ -39,7 +39,7 @@
 
 .profile .profile-image {
     width: 70%;
-    border-radius: 100%;
+    border-radius: 15%;
     display: block;
     margin-left: auto;
     margin-right: auto
@@ -89,7 +89,7 @@
     padding-top: 1.5rem;
 }
 .skills ul li p {
-    padding: .2rem 0;
+    padding: .2rem 1rem;
     color: #eeeeee;
 }
 
@@ -114,4 +114,48 @@
 
 .body {
     background-color: #ebdac6;
+}
+
+.experience-contents,
+.education-contents,
+.awards-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+    color: #F1F8FD;
+}
+
+.exp-company-name,
+.education-school-name,
+.awards-company-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.exp-time-period,
+.educationp-time-period,
+.awards-time-period {
+    font-size: 18px;
+}
+
+.exp-position,
+.education-subject,
+.awards-name {
+    font-size: 25px;
+}
+
+.exp-desc,
+.education-desc,
+.awards-desc {
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.line-title{
+    border-bottom: 2px solid #c5b7b77a;
+}
+
+.line-title-left{
+    border-left: 4px solid #c5b7b77a;
+    padding-left: 1rem;
 }
