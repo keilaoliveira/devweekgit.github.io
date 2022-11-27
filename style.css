@@ -28,7 +28,7 @@
     border-radius: 0px 60px 0px 0px;
 }
 
-.left-section-contents{
+.left-section-contents {
     padding: 2rem 2rem;
 }
 
@@ -66,6 +66,8 @@
     color: #71638a;
     font-size: 18;
     font-style: italic;
+    padding-left: 0.5rem;
+    ;
 }
 
 .contact-info ul {
@@ -88,6 +90,7 @@
 .skills ul {
     padding-top: 1.5rem;
 }
+
 .skills ul li p {
     padding: .2rem 1rem;
     color: #eeeeee;
@@ -105,8 +108,9 @@
 }
 
 .gap {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
+
 .about-me-contents {
     font-size: 18px;
     color: #eeeeee;
@@ -128,7 +132,7 @@
 .exp-company-name,
 .education-school-name,
 .awards-company-name {
-    font-size: 21;
+    font-size: 20;
     font-weight: bold;
 }
 
@@ -151,11 +155,33 @@
     padding-left: 5px;
 }
 
-.line-title{
+.line-title {
     border-bottom: 2px solid #c5b7b77a;
 }
 
-.line-title-left{
+.line-title-left {
     border-left: 4px solid #c5b7b77a;
     padding-left: 1rem;
+}
+
+.icons-contact {
+    padding-left: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #eeeeee;
+    font-style: italic;
+}
+
+.awards-left,
+.education-left,
+.exp-left {
+    padding-left: 0rem;
+}
+
+.awards-right,
+.education-right,
+.exp-right {
+    padding-left: 0rem;
 }
