@@ -34,7 +34,13 @@
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #d7aeae;
+    /*border-bottom: 2px solid #d7aeae;*/
+}
+
+.line-profile {
+    border-bottom: 2px solid #eeeeee;
+    width: 50%;
+    margin: auto;
 }
 
 .profile .profile-image {
